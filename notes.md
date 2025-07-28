@@ -2,6 +2,7 @@
 
 - [Prerequisites](#prerequisites)
 - [File Explanations](#file-explanations)
+- [Chunking](#chunking)
 
 # Prerequisites
 
@@ -22,3 +23,11 @@ pip install -r requirements.txt
 - **README.md**: This file contains the outline for the book "A simple guide to retrieval augmented Generation".
 
 - **notes.md**: This file contains notes about the project, including this index and file explanations.
+
+# Chunking
+
+Chunking is the process of splitting a large piece of text into smaller, more manageable pieces called chunks. This is a crucial step in Retrieval-Augmented Generation (RAG) systems.
+
+## `chunk_overlap`
+
+The `chunk_overlap` parameter in text splitters, such as `CharacterTextSplitter`, specifies the number of characters that should overlap between adjacent chunks. This overlap helps to maintain context between chunks. For example, if a sentence is split across two chunks, the overlap ensures that the beginning of the second chunk contains the end of the first chunk, so the full sentence is preserved in one of the chunks. This is important for downstream tasks like question answering, where the model might need the full context of a sentence to provide an accurate answer.

@@ -25,6 +25,5 @@
    Context window of LLms, context window size (total number of tokens that an LLM can process)
    Lost-in-the-middle problem: The accuray decline dramatically.
    Ease of search: More efficient to search in smaller set
-
-
-
+   
+   Fixed-dize chunking: common approach: 
