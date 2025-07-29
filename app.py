@@ -16,7 +16,6 @@ async def main():
     html_splitter = HTMLSectionSplitter(headers_to_split_on=headers_to_split_on)
     chunks = html_splitter.split_text(docs[0].page_content)
     print(f"The number of chunks created : {len(chunks)}")
-    print(chunks[3])
 
 if __name__ == "__main__":
     asyncio.run(main())

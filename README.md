@@ -26,4 +26,7 @@
    Lost-in-the-middle problem: The accuray decline dramatically.
    Ease of search: More efficient to search in smaller set
    
-   Fixed-dize chunking: common approach: 
+- Embeddings model: Is a design pattern that is extremely helpful in the fields of data sciente.
+The goal of an embeddig model is to convert words into n-dimensional vectors.
+
+ 
