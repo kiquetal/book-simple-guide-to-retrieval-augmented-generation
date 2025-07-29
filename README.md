@@ -29,4 +29,10 @@
 - Embeddings model: Is a design pattern that is extremely helpful in the fields of data sciente.
 The goal of an embeddig model is to convert words into n-dimensional vectors.
 
+Embeddings:
+- Word2Vec: is a shallow-neural-network-based model for learning word embeddings
+- Glove: global vectors for word representations is an usupervised learning technique 
+- FastText: is an extension of Word2Vec
+- ElMo: best for question answering and sentiment analysis taks
+- Bert: Bidirectional Encoder Representations from Transformes
  
