@@ -26,6 +26,8 @@ async def main():
         headers_to_split_on = [
             ("h1", "Header 1"),
             ("h2", "Header 2"),
+            ("h3", "Header 3"),
+            ("h4", "Header 4"),
             ("table", "Table"),
         ]
 
@@ -50,7 +52,7 @@ async def main():
         vector_store.save_local(folder_path=folder_path, index_name=index_name)
         print("New vector store created and saved.")
 
-    query = "Who won the World Cup final?"
+    query = "Who played  the World Cup final?"
     docs = vector_store.similarity_search(query)
     print(docs[0].page_content)
 

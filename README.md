@@ -35,4 +35,9 @@ Embeddings:
 - FastText: is an extension of Word2Vec
 - ElMo: best for question answering and sentiment analysis taks
 - Bert: Bidirectional Encoder Representations from Transformes
+
+#### Chapter IV
+
+Retrieval, Augmentation, and LLM cycle
+
  
